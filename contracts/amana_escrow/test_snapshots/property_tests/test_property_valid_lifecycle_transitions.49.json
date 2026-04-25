@@ -44,7 +44,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
                 },
                 {
-                  "u32": 8522
+                  "u32": 7681
                 }
               ]
             }
@@ -66,7 +66,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M"
                 },
                 {
-                  "i128": "89461"
+                  "i128": "28888"
                 }
               ]
             }
@@ -105,7 +105,7 @@
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM"
                     },
                     {
-                      "i128": "89461"
+                      "i128": "28888"
                     }
                   ]
                 }
@@ -176,7 +176,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
                 },
                 {
-                  "u32": 6227
+                  "u32": 2045
                 }
               ]
             }
@@ -346,7 +346,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "89461"
+                      "i128": "28888"
                     }
                   },
                   {
@@ -362,7 +362,7 @@
                       "symbol": "buyer_loss_bps"
                     },
                     "val": {
-                      "u32": 677
+                      "u32": 7585
                     }
                   },
                   {
@@ -400,7 +400,7 @@
                       "symbol": "seller_loss_bps"
                     },
                     "val": {
-                      "u32": 9323
+                      "u32": 2415
                     }
                   },
                   {
@@ -486,12 +486,24 @@
                       "key": {
                         "vec": [
                           {
+                            "symbol": "CngnContract"
+                          }
+                        ]
+                      },
+                      "val": {
+                        "address": "CACMVW2KK4H5FZDFF2AUCAKQTEJMZZWJUIZF23XMRVYQBSXYLHZ6BKWN"
+                      }
+                    },
+                    {
+                      "key": {
+                        "vec": [
+                          {
                             "symbol": "FeeBps"
                           }
                         ]
                       },
                       "val": {
-                        "u32": 8522
+                        "u32": 7681
                       }
                     },
                     {
@@ -528,18 +540,6 @@
                       },
                       "val": {
                         "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
-                      }
-                    },
-                    {
-                      "key": {
-                        "vec": [
-                          {
-                            "symbol": "UsdcContract"
-                          }
-                        ]
-                      },
-                      "val": {
-                        "address": "CACMVW2KK4H5FZDFF2AUCAKQTEJMZZWJUIZF23XMRVYQBSXYLHZ6BKWN"
                       }
                     }
                   ]
@@ -748,7 +748,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "31468"
+                      "i128": "5549"
                     }
                   },
                   {
@@ -800,7 +800,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "8572"
+                      "i128": "5413"
                     }
                   },
                   {
@@ -852,7 +852,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "49421"
+                      "i128": "17926"
                     }
                   },
                   {

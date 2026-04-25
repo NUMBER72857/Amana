@@ -44,7 +44,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
                 },
                 {
-                  "u32": 7842
+                  "u32": 1706
                 }
               ]
             }
@@ -66,7 +66,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M"
                 },
                 {
-                  "i128": "97848"
+                  "i128": "91923"
                 }
               ]
             }
@@ -105,7 +105,7 @@
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM"
                     },
                     {
-                      "i128": "97848"
+                      "i128": "91923"
                     }
                   ]
                 }
@@ -176,7 +176,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
                 },
                 {
-                  "u32": 2458
+                  "u32": 2751
                 }
               ]
             }
@@ -342,7 +342,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "97848"
+                      "i128": "91923"
                     }
                   },
                   {
@@ -358,7 +358,7 @@
                       "symbol": "buyer_loss_bps"
                     },
                     "val": {
-                      "u32": 7842
+                      "u32": 749
                     }
                   },
                   {
@@ -396,7 +396,7 @@
                       "symbol": "seller_loss_bps"
                     },
                     "val": {
-                      "u32": 2158
+                      "u32": 9251
                     }
                   },
                   {
@@ -482,12 +482,24 @@
                       "key": {
                         "vec": [
                           {
+                            "symbol": "CngnContract"
+                          }
+                        ]
+                      },
+                      "val": {
+                        "address": "CACMVW2KK4H5FZDFF2AUCAKQTEJMZZWJUIZF23XMRVYQBSXYLHZ6BKWN"
+                      }
+                    },
+                    {
+                      "key": {
+                        "vec": [
+                          {
                             "symbol": "FeeBps"
                           }
                         ]
                       },
                       "val": {
-                        "u32": 7842
+                        "u32": 1706
                       }
                     },
                     {
@@ -524,18 +536,6 @@
                       },
                       "val": {
                         "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
-                      }
-                    },
-                    {
-                      "key": {
-                        "vec": [
-                          {
-                            "symbol": "UsdcContract"
-                          }
-                        ]
-                      },
-                      "val": {
-                        "address": "CACMVW2KK4H5FZDFF2AUCAKQTEJMZZWJUIZF23XMRVYQBSXYLHZ6BKWN"
                       }
                     }
                   ]
@@ -744,7 +744,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "15925"
+                      "i128": "61644"
                     }
                   },
                   {
@@ -796,7 +796,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "17679"
+                      "i128": "25114"
                     }
                   },
                   {
@@ -848,7 +848,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "64244"
+                      "i128": "5165"
                     }
                   },
                   {

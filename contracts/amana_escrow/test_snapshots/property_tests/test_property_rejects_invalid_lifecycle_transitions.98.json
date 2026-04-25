@@ -44,7 +44,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
                 },
                 {
-                  "u32": 5291
+                  "u32": 5396
                 }
               ]
             }
@@ -66,7 +66,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M"
                 },
                 {
-                  "i128": "76338"
+                  "i128": "5728"
                 }
               ]
             }
@@ -105,7 +105,7 @@
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM"
                     },
                     {
-                      "i128": "76338"
+                      "i128": "5728"
                     }
                   ]
                 }
@@ -176,7 +176,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOLZM"
                 },
                 {
-                  "u32": 6051
+                  "u32": 7765
                 }
               ]
             }
@@ -342,7 +342,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "76338"
+                      "i128": "5728"
                     }
                   },
                   {
@@ -358,7 +358,7 @@
                       "symbol": "buyer_loss_bps"
                     },
                     "val": {
-                      "u32": 2718
+                      "u32": 2118
                     }
                   },
                   {
@@ -396,7 +396,7 @@
                       "symbol": "seller_loss_bps"
                     },
                     "val": {
-                      "u32": 7282
+                      "u32": 7882
                     }
                   },
                   {
@@ -482,12 +482,24 @@
                       "key": {
                         "vec": [
                           {
+                            "symbol": "CngnContract"
+                          }
+                        ]
+                      },
+                      "val": {
+                        "address": "CACMVW2KK4H5FZDFF2AUCAKQTEJMZZWJUIZF23XMRVYQBSXYLHZ6BKWN"
+                      }
+                    },
+                    {
+                      "key": {
+                        "vec": [
+                          {
                             "symbol": "FeeBps"
                           }
                         ]
                       },
                       "val": {
-                        "u32": 5291
+                        "u32": 5396
                       }
                     },
                     {
@@ -524,18 +536,6 @@
                       },
                       "val": {
                         "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
-                      }
-                    },
-                    {
-                      "key": {
-                        "vec": [
-                          {
-                            "symbol": "UsdcContract"
-                          }
-                        ]
-                      },
-                      "val": {
-                        "address": "CACMVW2KK4H5FZDFF2AUCAKQTEJMZZWJUIZF23XMRVYQBSXYLHZ6BKWN"
                       }
                     }
                   ]
@@ -744,7 +744,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "21952"
+                      "i128": "1009"
                     }
                   },
                   {
@@ -796,7 +796,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "25611"
+                      "i128": "2173"
                     }
                   },
                   {
@@ -848,7 +848,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "28775"
+                      "i128": "2546"
                     }
                   },
                   {

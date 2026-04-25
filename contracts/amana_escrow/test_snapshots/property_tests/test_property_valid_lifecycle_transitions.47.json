@@ -44,7 +44,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
                 },
                 {
-                  "u32": 7101
+                  "u32": 3003
                 }
               ]
             }
@@ -66,7 +66,7 @@
                   "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHK3M"
                 },
                 {
-                  "i128": "42171"
+                  "i128": "22053"
                 }
               ]
             }
@@ -105,7 +105,7 @@
                       "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD2KM"
                     },
                     {
-                      "i128": "42171"
+                      "i128": "22053"
                     }
                   ]
                 }
@@ -236,7 +236,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "42171"
+                      "i128": "22053"
                     }
                   },
                   {
@@ -252,7 +252,7 @@
                       "symbol": "buyer_loss_bps"
                     },
                     "val": {
-                      "u32": 305
+                      "u32": 803
                     }
                   },
                   {
@@ -292,7 +292,7 @@
                       "symbol": "seller_loss_bps"
                     },
                     "val": {
-                      "u32": 9695
+                      "u32": 9197
                     }
                   },
                   {
@@ -378,12 +378,24 @@
                       "key": {
                         "vec": [
                           {
+                            "symbol": "CngnContract"
+                          }
+                        ]
+                      },
+                      "val": {
+                        "address": "CACMVW2KK4H5FZDFF2AUCAKQTEJMZZWJUIZF23XMRVYQBSXYLHZ6BKWN"
+                      }
+                    },
+                    {
+                      "key": {
+                        "vec": [
+                          {
                             "symbol": "FeeBps"
                           }
                         ]
                       },
                       "val": {
-                        "u32": 7101
+                        "u32": 3003
                       }
                     },
                     {
@@ -408,18 +420,6 @@
                       },
                       "val": {
                         "address": "CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK3IM"
-                      }
-                    },
-                    {
-                      "key": {
-                        "vec": [
-                          {
-                            "symbol": "UsdcContract"
-                          }
-                        ]
-                      },
-                      "val": {
-                        "address": "CACMVW2KK4H5FZDFF2AUCAKQTEJMZZWJUIZF23XMRVYQBSXYLHZ6BKWN"
                       }
                     }
                   ]
@@ -660,7 +660,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "12226"
+                      "i128": "15431"
                     }
                   },
                   {
@@ -712,7 +712,7 @@
                       "symbol": "amount"
                     },
                     "val": {
-                      "i128": "29945"
+                      "i128": "6622"
                     }
                   },
                   {

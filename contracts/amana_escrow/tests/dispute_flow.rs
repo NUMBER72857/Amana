@@ -2,9 +2,8 @@ extern crate std;
 
 use amana_escrow::{EscrowContract, EscrowContractClient, TradeStatus};
 use soroban_sdk::{
-    contract, contractimpl, contracttype,
+    Address, Env, String as SorobanString, contract, contractimpl, contracttype,
     testutils::{Address as _, Ledger},
-    Address, Env, String as SorobanString,
 };
 use std::cell::RefCell;
 use std::collections::HashMap;
@@ -131,12 +130,13 @@ impl H {
     }
 
     fn funded_trade(&self, amount: i128) -> u64 {
-        self.c().initialize(&self.admin, &self.token, &self.admin, &0u32);
+        self.c()
+            .initialize(&self.admin, &self.token, &self.admin, &0u32);
         self.c().set_mediator(&self.mediator);
         self.tok().mint(&self.buyer, &amount);
-        let trade_id = self
-            .c()
-            .create_trade(&self.buyer, &self.seller, &amount, &5000u32, &5000u32);
+        let trade_id =
+            self.c()
+                .create_trade(&self.buyer, &self.seller, &amount, &5000u32, &5000u32);
         self.c().deposit(&trade_id);
         db_upsert(DbTrade {
             trade_id,
